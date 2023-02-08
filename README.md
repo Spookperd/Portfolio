@@ -26,4 +26,12 @@ The distributions shown in 1 and 2 can be further classified by the way the atom
 
 Some of the structures were further analysed using state of the art Quantum Mechanical software, and a bonding model for these compounds was extracted, including the exponential regression model shown above that was able to predict the strength of the bond between Gold and another atom, based on input parameters. 
 
-# 
+# Buying a car
+When I sold my last car, I think I got too little for it. Dealers use the "Book Value" to their advantage when buying and selling cars. I was interested in buying a car online, but I had no idea what a fair price would be, and I didn't trust their pricing. So I wrote a bot that scraped car sites for a specfic make, and mined all of the available data from the site, and put this into a Pandas Dataframe. I made a regression model, using the normalised milage, year, specs and condition to filter which cars were good value. 
+
+<img src="https://user-images.githubusercontent.com/107844512/217642622-aa9a5ab4-c1e9-4dbf-827a-a2474fb1b2e7.png" width="500" height="500">
+
+This shows the list price vs. milage for the car model I was looking at. There is a large variation in price for a given milage, since model year, location and condition is not shown in this Figure, but by doing a regression model, I could score vehicles by value, and take the url;s as output. The unfortunate thing is I still could not automate scams, so there were a few in my top 10 best value cars. I was able to also predict a value of a car, given it's specs, but this is a small sample size, so it was only reliable to convince a sneaky salesman.
+
+I ran this script recently, and visually compare the results. Despite the massive rise in interest rate, and economic pressure, prices remain similar. This vehicle is often used commercially, so this may be why cars are not decreasing in price. 
+
