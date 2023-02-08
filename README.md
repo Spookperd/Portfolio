@@ -20,7 +20,10 @@ This figure challenges the idea of chemical bonding of compounds containing Gold
 
 The distributions shown in 1 and 2 can be further classified by the way the atoms interact with one another. A linear relationship emerged with the 1-4 intra class for example that limits the orientation of Q = F in Gold complexes. 
 
-**4.**
-![Fig1](https://user-images.githubusercontent.com/107844512/217620428-9fc4a1bf-c41b-47e3-9518-a680644e5df1.png)
+# Predictive regression model 
+
+<img src="https://user-images.githubusercontent.com/107844512/217620428-9fc4a1bf-c41b-47e3-9518-a680644e5df1.png" width="500" height="500">
 
 Some of the structures were further analysed using state of the art Quantum Mechanical software, and a bonding model for these compounds was extracted, including the exponential regression model shown above that was able to predict the strength of the bond between Gold and another atom, based on input parameters. 
+
+# 
